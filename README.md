@@ -1,34 +1,23 @@
-# Pong Game
+# Blackjack Console Game
 
-This is a classic and simple Pong game developed using Python and the Turtle module.
+This is a simple implementation of the Blackjack card game in Python. It's one of my first game projects.
 
-### Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-Python 3.x
-
-### Installing
-
-1. Clone the repository to your local machine.
-
-`git clone https://github.com/RaresBogdan/pong-game.git`
-
-2. Change directory into the cloned repository.
-
-`cd <repository>`
-
-3. Run the program.
-
-`python pong_game.py`
+As a beginner project, the game is intended to explore the basics of Object-Oriented Programming (OOP) and the use of classes in Python.
 
 ## How to Play
 
-**For Player A :** use the W and S keys to move Paddle A up and down.
+The game starts by asking the player to enter their name. It then uses a standard deck of cards and randomly deals cards to the player and the dealer. The player's goal is to get a higher score than the dealer, without going over 21.
 
-**For Pfsds
+During the game, the player is prompted to hit or stand. If the player hits, another card is dealt and added to their hand. If the player stands, the dealer will then draw cards until their score is at least 17.
 
-The objective of the game is to score points by hitting the ball past your opponent's paddle.
+The game ends when the player decides to stand or when their score goes over 21. The dealer then draws cards until their score is 17 or higher. The game then determines the winner based on the scores.
 
+## How to Run
+
+To run the game, simply run the `blackjack_game.py` file. The code will prompt the player to enter their name and start the game.
+
+## Notes
+
+As a first project, this implementation of Blackjack is intentionally simple and only covers basic gameplay mechanics. There may be improvements or additional features that can be added, such as adding betting or more complex strategies.
+
+Overall, this project is intended to be a fun and educational way to explore the basics of OOP and Python programming.
